@@ -8,6 +8,7 @@ for working you need to create a folder with the name of the label in data/ and 
 
 
 ik code is ugly but idc
-ITS JUST A BASE !
+
+ITS JUST A BASE CODE !
 
 discord.gg/dch
