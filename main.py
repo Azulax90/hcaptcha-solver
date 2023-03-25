@@ -172,8 +172,7 @@ class Solver:
                 m.join()
                 
             #answ = json.dumps(answ)
-            key= getcaptcha["key"]
-            answ = answ
+
             json_data = {
                 'v': self.v,
                 'job_mode': 'image_label_binary',
@@ -186,7 +185,7 @@ class Solver:
     }
             self.client.headers["content-type"] = 'application/json'
             time.sleep(4)
-            uuid = self.client.post(f"https://hcaptcha.com/checkcaptcha/{self.site_key}/{key}", json=json_data)
+            uuid = self.client.post(f"https://hcaptcha.com/checkcaptcha/{self.site_key}/{getcaptcha['key']}", json=json_data)
             data = uuid.json()
             
             try:
