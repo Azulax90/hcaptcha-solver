@@ -1,5 +1,5 @@
 # hcaptcha-solver
-fast hcaptcha solver working with imgs hash
+fast hcaptcha solver full requests working with imgs hash
 
 discord.gg/dch
 
