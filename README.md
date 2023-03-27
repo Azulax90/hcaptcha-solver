@@ -5,6 +5,7 @@ discord.gg/dch
 
 for working you need to create a folder with the name of the label in data/ and put good imgs in 
 
+This hcaptcha solver is flag, you can make it unflagged by using a good motionData and good hsw/hsj
 
 
 ik code is ugly but idc
